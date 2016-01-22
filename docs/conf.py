@@ -54,8 +54,8 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-if not on_rtd:
-    extensions.append('sphinxcontrib.spelling')
+# if not on_rtd:
+#     extensions.append('sphinxcontrib.spelling')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -123,8 +123,8 @@ pygments_style = 'sphinx'
 
 # splhinxcontrib.spelling settings
 
-spelling_lang = 'en_GB'
-spelling_word_list_filename='spelling_wordlist.txt'
+# spelling_lang = 'en_GB'
+# spelling_word_list_filename='spelling_wordlist.txt'
 
 
 # -- Options for HTML output ----------------------------------------------
