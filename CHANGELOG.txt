@@ -6,12 +6,16 @@ Changelog
 
  * The `Document` model can now be overridden using the new `WAGTAILDOCS_DOCUMENT_MODEL` setting (Alex Gleason)
  * Date/time pickers now respect the locale's 'first day of week' setting (Peter Quade)
+ * Refactored the way forms are constructed for the page editor, to allow custom forms to be used
  * Fix: Custom page managers no longer raise an error when used on an abstract model
  * Fix: Wagtail's migrations are now all reversible (benjaoming)
  * Fix: Deleting a page content type now preserves existing pages as basic Page instances, to prevent tree corruption
  * Fix: The `Page.path` field is now explicitly given the "C" collation on PostgreSQL to prevent tree ordering issues when using a database created with the Slovak locale
  * Fix: Wagtail's compiled static assets are now put into the correct directory on Windows (Aarni Koskela)
  * Fix: `ChooserBlock` now correctly handles models with primary keys other than `id` (alexpilot11)
+ * Fix: Fixed typo in Wistia oEmbed pattern (Josh Hurd)
+ * Fix: Added more accurate help text for the Administrator flag on user accounts (Matt Fozard)
+ * Fix: Tags added on the multiple image uploader are now saved correctly
 
 1.3.1 (05.01.2016)
 ~~~~~~~~~~~~~~~~~~

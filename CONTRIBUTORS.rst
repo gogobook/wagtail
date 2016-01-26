@@ -98,6 +98,8 @@ Contributors
 * Aarni Koskela
 * alexpilot11
 * Peter Quade
+* Josh Hurd
+* Matt Fozard
 
 
 Translators
